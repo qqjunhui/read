@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />	
+		<link rel="stylesheet" href="../common/css/common.css" />
+		<script src="../common/js/common.js"></script>
+		<title>readApp</title>
+		<script src="../common/js/jquery.min.js"></script>
+		<script src='../js/iscroll.js'></script>
+		<script src='../js/L-read-1.js'></script>
+		<link rel="stylesheet" href="../css/L-read-1.css" />
+		<script src='../js/hammer.js'></script>
+	</head>
+	<body onload="loaded()">
+		<header class='head'>
+			<div>
+				<a onclick="history.go(-1)">
+					<img src="../img/x-img/X-2.png" alt="" class="X-header-left"/>
+				</a>
+				<span class="X-shop">绿野仙踪</span>
+				<a href="javascript:;">
+					<img src="../img/L-img/21.png" alt="" class="X-header-right"/>
+				</a>
+				
+				<img src="../img/X-img/X-13.png" alt="" class="X-header-medium"/>
+				<img src="../img/X-img/X-14.png" alt="" class="X-header-medium-two"/>
+			</div>
+		</header>
+		<section class='art test' id='test' >
+			<!--<h3>WHIRLWIND CAME</h3>-->
+			<div id="wrapper">
+				<div id="scroller">
+					<p><strong>This demo shows the minimum CSS/HTML/JS configuration you need to run the iScroll. Look at the source code for details.</strong></p>
+					<p>HTML指的是超文本标记语言 (Hyper Text Markup Language)，这个也是我们网页最常用普通的语言了，经历了多个版本的发展，现在已经发展到5.0版了，得力于W3C建立的标准和规范，现在已普遍升级到了XHTML，XHTML 指可扩展超文本标签语言（EXtensible HyperText Markup Language）， XHTML 于2000年的1月26日成为 W3C 标准，是更严格更纯净的 HTML 代码，XHTML 的目标是取代 HTML。XHTML 与 HTML 4.01 几乎是相同的，XHTML 是作为一种 XML 应用被重新定义的 HTML，是一个 W3C 标准。W3C 将 XHTML 定义为最新的HTML版本。所有新的浏览器都支持 XHTML。</p>
+					<p>CSS级联样式表（Cascading Style Sheet）简称“CSS”，通常又称为“风格样式表（Style Sheet）”，它是用来进行网页风格设计的。比如，如果想让链接字未点击时是蓝色的，当鼠标移上去后字变成红色的且有下划线，这就是一种风格。通过设立样式表，可以统一地控制HTML中各标志的显示属性。级联样式表可以使人更能有效地控制网页外观。使用级联样式表，可以扩充精确指定网页元素位置，外观以及创建特殊效果的能力。</p>
+					<p>Javascript是一种由Netscape的LiveScript发展而来的原型化继承的面向对象的动态类型的区分大小写的客户端脚本语言，主要目的是为了解决服务器端语言，比如Perl，遗留的速度问题，为客户提供更流畅的浏览效果。当时服务端需要对数据进行验证，由于网络速度相当缓慢，只有28.8kbps，验证步骤浪费的时间太多。于是Netscape的浏览器Navigator加入了Javascript，提供了数据验证的基本功能。HTML、CSS、JavaScript这个是前端开发中最基本也是最必须的三个技能。前端的开发中，在页面的布局时， HTML将元素进行定义，CSS对展示的元素进行定位，再通过JavaScript实现相应的效果和交互。虽然表面看起来这些很简单，但这里面需要掌握的东西绝对不会少。在进行开发前，需要对这些概念弄清楚、弄明白，这样在开发的过程中才会得心应手。</p>
+					<p>HTML指的是超文本标记语言 (Hyper Text Markup Language)，这个也是我们网页最常用普通的语言了，经历了多个版本的发展，现在已经发展到5.0版了，得力于W3C建立的标准和规范，现在已普遍升级到了XHTML，XHTML 指可扩展超文本标签语言（EXtensible HyperText Markup Language）， XHTML 于2000年的1月26日成为 W3C 标准，是更严格更纯净的 HTML 代码，XHTML 的目标是取代 HTML。XHTML 与 HTML 4.01 几乎是相同的，XHTML 是作为一种 XML 应用被重新定义的 HTML，是一个 W3C 标准。W3C 将 XHTML 定义为最新的HTML版本。所有新的浏览器都支持 XHTML。</p>
+					<p>CSS级联样式表（Cascading Style Sheet）简称“CSS”，通常又称为“风格样式表（Style Sheet）”，它是用来进行网页风格设计的。比如，如果想让链接字未点击时是蓝色的，当鼠标移上去后字变成红色的且有下划线，这就是一种风格。通过设立样式表，可以统一地控制HTML中各标志的显示属性。级联样式表可以使人更能有效地控制网页外观。使用级联样式表，可以扩充精确指定网页元素位置，外观以及创建特殊效果的能力。</p>
+					<p>Javascript是一种由Netscape的LiveScript发展而来的原型化继承的面向对象的动态类型的区分大小写的客户端脚本语言，主要目的是为了解决服务器端语言，比如Perl，遗留的速度问题，为客户提供更流畅的浏览效果。当时服务端需要对数据进行验证，由于网络速度相当缓慢，只有28.8kbps，验证步骤浪费的时间太多。于是Netscape的浏览器Navigator加入了Javascript，提供了数据验证的基本功能。HTML、CSS、JavaScript这个是前端开发中最基本也是最必须的三个技能。前端的开发中，在页面的布局时， HTML将元素进行定义，CSS对展示的元素进行定位，再通过JavaScript实现相应的效果和交互。虽然表面看起来这些很简单，但这里面需要掌握的东西绝对不会少。在进行开发前，需要对这些概念弄清楚、弄明白，这样在开发的过程中才会得心应手。</p>
+				</div>
+			</div>
+		</section>
+		<footer class="set">
+			<ul>
+				<li>
+					<img src="../img/L-img/22.png" alt="" />
+				</li>
+				<li class='wenzi'>
+					<img src="../img/L-img/23.png" alt="" />
+				</li>
+				<li class='lig'>
+					<img src="../img/L-img/24.png" alt="" />
+				</li>
+				<li class='nig'>
+					<img src="../img/L-img/25.png" alt="" />
+				</li>
+			</ul>
+			<ul class='fon'>
+				<li>
+					<div class='one'></div>
+					<div class='two'></div>
+					<div class='three'></div>
+					<div class='four'></div>
+					<div class='five'></div>
+				</li>
+				<li>
+					<div class='wordreduce'>A+</div>
+					<div class='wordincrease'>A-</div>
+				</li>
+				<li>
+					<span>第四章 失踪的小绿叶</span>
+				</li>
+			</ul>
+			<ul class='light'>
+				<li>
+					<div></div>
+				</li>
+				<li>
+					<div>跟随系统亮度</div>
+				</li>
+				<li>
+					<span>第四章 失踪的小绿叶</span>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
+<script type="text/javascript">
+var myScroll;
+function loaded () {
+	myScroll = new IScroll('#wrapper');
+}
+
+//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+//	capture: false,
+//	passive: false
+//} : false);
+</script>
